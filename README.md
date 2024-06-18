@@ -31,7 +31,7 @@ The dataset consists of images representing six different hand gestures:
 - Volume Down
 - Next
 - Previous
-
+                                                           ![rdm-figure](assets/data.png)
 ### Data Collection
 
 - **Create Directories**: The dataset is organized into train and valid directories, each containing subdirectories for the six gestures.
@@ -40,6 +40,7 @@ The dataset consists of images representing six different hand gestures:
 ### Preprocessing
 
 - **Edge Detection**: Apply Sobel edge detection to highlight the edges in the images.
+                                                           ![rdm-figure](assets/edge.png)
 - **Data Augmentation**: Transformations such as resizing, random cropping, and horizontal flipping are applied to enhance the dataset.
 
 ## Methodology
